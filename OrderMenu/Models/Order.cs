@@ -5,7 +5,7 @@
         public int OrderId { get; set; }
         public int TableNum { get; set; }
         public int OrderTime { get; set; }
-        public List<Menu> MenuItemId
+        public List<Menu> MenuItemId { get; set; }
 
     }
 }
